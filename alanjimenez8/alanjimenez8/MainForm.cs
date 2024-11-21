@@ -29,5 +29,12 @@ namespace alanjimenez8
 			// TODO: Add constructor code after the InitializeComponent() call.
 			//
 		}
+		
+		void Button1Click(object sender, EventArgs e)
+		{
+			Form1 form1 =new Form1();
+			form1.Show();
+			Hide();
+		}
 	}
 }

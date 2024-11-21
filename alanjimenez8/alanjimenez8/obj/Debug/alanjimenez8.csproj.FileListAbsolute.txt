@@ -1,0 +1,8 @@
+C:\Users\CC2_PC43\alanjimenez8\alanjimenez8\alanjimenez8\bin\Debug\alanjimenez8.exe
+C:\Users\CC2_PC43\alanjimenez8\alanjimenez8\alanjimenez8\bin\Debug\alanjimenez8.pdb
+C:\Users\CC2_PC43\alanjimenez8\alanjimenez8\alanjimenez8\obj\Debug\alanjimenez8.csprojResolveAssemblyReference.cache
+C:\Users\CC2_PC43\alanjimenez8\alanjimenez8\alanjimenez8\obj\Debug\alanjimenez8.Form1.resources
+C:\Users\CC2_PC43\alanjimenez8\alanjimenez8\alanjimenez8\obj\Debug\alanjimenez8.MainForm.resources
+C:\Users\CC2_PC43\alanjimenez8\alanjimenez8\alanjimenez8\obj\Debug\alanjimenez8.csproj.GenerateResource.Cache
+C:\Users\CC2_PC43\alanjimenez8\alanjimenez8\alanjimenez8\obj\Debug\alanjimenez8.exe
+C:\Users\CC2_PC43\alanjimenez8\alanjimenez8\alanjimenez8\obj\Debug\alanjimenez8.pdb

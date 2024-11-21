@@ -28,5 +28,64 @@ namespace alanjimenez8
 			// TODO: Add constructor code after the InitializeComponent() call.
 			//
 		}
+		int a=0;
+		int b,c,d,x,f;
+		void Button1Click(object sender, EventArgs e)
+		{
+			int s=int.Parse(textBox2.Text);
+			if(a+s>100){
+				MessageBox.Show("Excedes el 100%");
+			}
+			else {
+				if(comboBox1.SelectedIndex == 0){
+					b+=s;
+				}
+				else if(comboBox1.SelectedIndex == 1){
+					c+=s;
+				}
+				else if(comboBox1.SelectedIndex == 2){
+					d+=s;
+				}
+				else if(comboBox1.SelectedIndex == 3){
+					x=x+s;
+				}
+				else if(comboBox1.SelectedIndex == 4){
+					f+=s;
+				}
+				else{
+				a-=s;
+				MessageBox.Show("NO SELECCIONASTE NADA");
+				}
+				a+=s;
+			}
+			string h=string.Empty;
+			textBox2.Text=h;
+		}
+		
+		void Button2Click(object sender, EventArgs e)
+		{	
+			if(a!=100){
+				int p=100-a;
+				MessageBox.Show(p.ToString(),"te falta del porcentaje");
+			}
+			else{
+			int g=int.Parse(textBox1.Text);
+			b=(50*b)*g/100;
+			MessageBox.Show(b.ToString(),"El valor del aserrin es");
+			b=0;
+			a=0;
+			if(x>0){
+				x=(50*x)*g/100;
+			MessageBox.Show(x.ToString(),"El valor del aserrin es");
+			x=0;
+			}
+			if(d>0){
+			d=(50*d)*g/100;
+			MessageBox.Show(d.ToString(),"El valor del aserrin es");
+			d=0;	
+			}
+			
+			}
+		}
 	}
 }
