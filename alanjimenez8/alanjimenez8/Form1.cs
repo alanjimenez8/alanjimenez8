@@ -64,9 +64,13 @@ namespace alanjimenez8
 		
 		void Button2Click(object sender, EventArgs e)
 		{	
+			int op=int.Parse(textBox1.Text);
 			if(a!=100){
 				int p=100-a;
 				MessageBox.Show(p.ToString(),"te falta del porcentaje");
+			}
+			else if(op==0){
+				MessageBox.Show("No hay trabajadores")
 			}
 			else{
 			int g=int.Parse(textBox1.Text);
@@ -75,16 +79,27 @@ namespace alanjimenez8
 			b=0;
 			a=0;
 			if(x>0){
-				x=(50*x)*g/100;
-			MessageBox.Show(x.ToString(),"El valor del aserrin es");
+				x=(45*x)*g/100;
+			MessageBox.Show(x.ToString(),"El valor del flores es");
 			x=0;
 			}
 			if(d>0){
-			d=(50*d)*g/100;
-			MessageBox.Show(d.ToString(),"El valor del aserrin es");
+			d=(21*d)*g/100;
+			MessageBox.Show(d.ToString(),"El valor del frutos secos es");
 			d=0;	
 			}
-			
+			if(c>0){
+			c=(53*c)*g/100;
+			MessageBox.Show(d.ToString(),"El valor del pintura es");
+			d=0;	
+			}
+			if(f>0){
+			d=(96*d)*g/100;
+			MessageBox.Show(d.ToString(),"El valor del agua es");
+			d=0;	
+			}
+			op=op*500;
+			MessageBox.Show(op.ToString(),"El valor de la mano de obra");
 			}
 		}
 	}
